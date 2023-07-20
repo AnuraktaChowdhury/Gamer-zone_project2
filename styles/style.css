@@ -279,6 +279,14 @@ nav li a {
 }
 
 
+.sponsors-img-container {
+    display: flex;
+}
+
+.sponsors-img-container:hover {
+    border: #FF42A5
+}
+
 
 
 
@@ -328,8 +336,10 @@ nav li a {
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max width:960px) {
 
+
     nav,
     .features,
+    .footer-title,
     .teams-container,
     .sponsors-img-container {
         flex-direction: column;
